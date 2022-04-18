@@ -1,0 +1,16 @@
+@use "variables" as *;
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body {
+  @apply text-primary;
+  font-family: monospace;
+}
+
+.main-footer {
+  @apply uppercase fixed bottom-0 w-screen text-center border border-secondary;
+  height: $footer-height;
+}
