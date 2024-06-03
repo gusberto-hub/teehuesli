@@ -1,16 +1,97 @@
 @use "variables" as *;
+@use "typography" as *;
 
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-html,
-body {
-  @apply text-primary;
-  font-family: monospace;
+html {
+  @apply scroll-smooth scroll-pt-16;
 }
 
-.main-footer {
-  @apply uppercase fixed bottom-0 w-screen text-center border border-secondary;
-  height: $footer-height;
+img {
+  @apply object-contain z-20 relative will-change-scroll;
+}
+
+header {
+  @apply text-secondary fixed top-0 flex justify-between w-screen max-w-[1400px] px-8 md:px-20 z-30 pt-8;
+  height: var(--header-height);
+}
+
+main {
+  @apply px-8 md:px-20;
+  padding-top: var(--header-height);
+}
+
+section {
+  @apply mb-24;
+}
+
+#next_event {
+  --arrow-width: 5rem;
+  --arrow-ratio: calc(1 / 1);
+
+  @apply absolute w-36 sm:w-48 z-20 top-8 sm:top-[30vw] lg:top-8 right-4 sm:right-[14vw] lg:right-16 -rotate-[18deg] sm:rotate-[25deg] lg:-rotate-[19deg] uppercase text-secondary transition-all;
+  
+  .arrow {
+    @apply relative;
+
+    p{
+      @apply font-simplon_regular text-center text-sm sm:text-lg pt-[0.6em];
+      //Status
+      span{
+        @apply font-simplon_medium text-base sm:text-xl block;
+      }
+    }
+
+    img {
+      position: absolute;
+      top: 0;
+      left: 50%;
+      transform: translateX(-50%);
+      z-index: -1;
+      min-width: 8rem;
+    }
+  }
+}
+
+.x {
+  animation: x 21s linear infinite alternate;
+}
+
+.y {
+  animation: y 24s linear infinite alternate;
+}
+
+@keyframes x {
+  100% {
+    transform: translateX(calc(100vw + 16rem));
+  }
+}
+
+@keyframes y {
+  100% {
+    transform: translateY(calc(100vh + 12rem)) rotate(70deg);
+  }
+}
+
+footer > div {
+  > * {
+    padding: 0;
+    margin: 0 1.4em;
+  }
+}
+
+footer::after {
+  @apply content-[''] bg-mint w-screen h-full -z-10 -translate-x-1/2 top-0 left-1/2 absolute;
+}
+
+form input,
+form textarea {
+  @apply w-full border-2 border-primary rounded-none p-2 font-simplon_medium text-primary bg-neutral appearance-none placeholder:font-simplon_medium placeholder:text-primary placeholder:opacity-50 focus:outline-none mb-4;
+}
+
+.honeypot {
+  position: absolute;
+  left: -9999px;
 }

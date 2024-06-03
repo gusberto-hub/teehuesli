@@ -1,0 +1,30 @@
+@font-face {
+  font-family: "Simplon Mono Medium";
+  src: url(../../assets/fonts/SimplonMono-Medium.otf);
+}
+
+@font-face {
+  font-family: "Simplon Mono Regular";
+  src: url(../../assets/fonts/SimplonMono-Regular.otf);
+}
+
+p {
+  @apply pb-4 block;
+}
+p:last-of-type {
+  @apply pb-0;
+}
+
+section a {
+  text-decoration: underline;
+}
+
+p {
+  hyphens: auto;
+  -webkit-hyphens: auto;
+  -webkit-hyphenate-limit-chars: auto 3;
+  -webkit-hyphenate-limit-lines: 2;
+  -ms-hyphens: auto;
+  -ms-hyphenate-limit-chars: auto 3;
+  -ms-hyphenate-limit-lines: 2;
+}
