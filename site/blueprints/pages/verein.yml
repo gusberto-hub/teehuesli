@@ -1,0 +1,90 @@
+title: Verein
+tabs:
+  home:
+    sections:
+      # pages:
+      #   type: pages
+      #   status: listed
+      #   sortable: false
+      #   parent: site
+
+      #   icon: wand
+      #   options:
+      #     preview: false
+      #     changeStatus: false
+      #     delete: false
+
+      verein:
+        type: fields
+        fields:
+          verein_text:
+            label: Verein Text
+            type: textarea
+            width: 1/2
+          intro_image_1:
+            label: Intro Bild 1
+            type: files
+            multiple: false
+            width: 1/4
+            layout: cards
+          intro_image_2:
+            label: Intro Bild 2
+            type: files
+            multiple: false
+            width: 1/4
+            layout: cards
+          become_member_text:
+            label: Werde Mitglied
+            type: textarea
+            width: 1/2
+          vorstand_members:
+            label: Vorstand
+            type: structure
+            width: 1/2
+            fields:
+              name:
+                label: Name
+                type: text
+                width: 1/2
+              function:
+                label: Rolle
+                type: textarea
+                size: small
+                width: 1/2
+              mail:
+                label: Mail
+                type: email
+                width: 1/2
+              image:
+                label: Foto
+                type: files
+                layout: cards
+                width: 1/2
+                multiple: false
+                info: bild
+          form_title:
+            label: Formular Titel
+            type: textarea
+            width: 1/2
+          support_text:
+            label: Spenden Text
+            type: textarea
+            width: 1/2
+          support_account:
+            label: Spenden Konto
+            type: textarea
+            width: 1/2
+          # empfaengeremail:
+          #   label: Empfänger Email
+          #   type: email
+          #   width: 1/2
+          form_image:
+            label: Formular Bild
+            type: files
+            layout: cards
+            multiple: false
+            width: 1/2
+
+      images:
+        type: files
+        layout: cards

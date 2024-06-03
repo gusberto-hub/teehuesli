@@ -1,2 +1,130 @@
-preset: pages
-unlisted: true
+title: site
+tabs:
+  home:
+    label: Hüsli
+    sections:
+      pages:
+        type: pages
+        status: listed
+        sortable: false
+        templates: verein
+
+        icon: wand
+        options:
+          preview: false
+          changeStatus: false
+          delete: false
+
+      content:
+        type: fields
+        fields:
+          next_date:
+            label: Nächster Event
+            type: date
+            display: DD MMM YYYY
+          intro_text:
+            label: Intro
+            type: textarea
+            width: 3/4
+          intro_image:
+            label: Intro Bild
+            type: files
+            multiple: false
+            layout: cards
+            image:
+              back: white
+            width: 1/4
+          angebot_text:
+            label: Angebot
+            type: textarea
+            width: 3/4
+
+          angebot_image_1:
+            label: Angebot Bild
+            type: files
+            multiple: false
+            layout: cards
+            image:
+              back: white
+            width: 1/4
+
+          kontakt_text:
+            label: Kontakt
+            type: text
+          email:
+            label: E-mail
+            type: email
+            width: 1/3
+          instagram:
+            label: Instagram
+            type: url
+            width: 1/3
+          googlemaps:
+            label: Google Maps
+            type: url
+            width: 1/3
+
+          angebot_image_2:
+            label: Kontakt Bild
+            type: files
+            multiple: false
+            layout: cards
+            image:
+              back: white
+          map_desktop:
+            label: Karte Desktop
+            type: files
+            multiple: false
+            layout: cards
+            width: 1/2
+            image:
+              back: white
+          map_mobile:
+            label: Karte Mobile
+            type: files
+            multiple: false
+            layout: cards
+            width: 1/2
+            image:
+              back: white
+
+          imprint_text:
+            label: Impressum Footer
+            type: textarea
+
+  settings:
+    label: Einstellungen
+    sections:
+      emails:
+        type: fields
+        fields:
+          mailSettings:
+            label: Einstellungen Mail
+            type: headline
+            numbered: false
+            icon: email
+          absendertext:
+            label: Absender
+            type: text
+            help: Absender in Textform, keine E-Mail.
+            width: 1/2
+          smtp_server:
+            label: SMTP Server
+            type: text
+            help: Diese Info findest du bei deinem Mail-Provider
+            width: 1/2
+          absenderemail:
+            label: Absender Email
+            type: email
+            help: Absender E-mail Account
+            width: 1/2
+          absenderemail_password:
+            label: Absender Email Passwort
+            type: text
+            help: Passwort für Absender E-mail Account
+            width: 1/2
+          empfaengeremail:
+            label: Empfänger Email
+            type: email
+            help: E-Mail-Adresse für den Erhalt der Formularnachrichten
+            width: 1/2
