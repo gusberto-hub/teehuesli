@@ -1,0 +1,165 @@
+Title: Verein
+
+----
+
+Intro-image-1:
+
+- teehuesli-verein-renovierung.png
+
+----
+
+Intro-image-2:
+
+- teehuesli-gaeste-aussen-2.png
+
+----
+
+Verein-text:
+
+Das Teehüsli Hohenstein wurde 1909 als Antwort auf die Alkoholprobleme des Arbeitermilieus der Industrialisierung vom «Verein abstinenter Arbeiter Zürich» erbaut. 2021 wurde der Zürcher Institution mit viel Energie, Mut und unzähligen helfenden Händen neues Leben eingehaucht. In neuer Aufmachung und mit zeitgemässem Konzept wird der Waldkiosk seither vom Verein Teehüsli Hohenstein betrieben – und das noch immer ohne Alkoholausschank.
+
+Der Verein besteht aus Menschen, die sich für etwas gewöhnlich Besonderes mitten auf dem Üezgi engagieren. Für die Schaffung eines szenelosen Raums für Menschen aller Generationen. Der Verein steht für ein unkompliziertes Zusammen in und mit der Natur von Zürich.
+
+Häsch Luscht debii zsii?
+
+----
+
+Vorstand-members:
+
+- 
+  name: Joel Flückiger
+  function: |
+    Vereinspräsident &
+    Organisation
+  mail: hallo@teehuesli.ch
+  image:
+    - teehuesli-joel.png
+- 
+  name: Martina Bee
+  function: |
+    Vize- Präsidentin &
+    Kommunikation
+  mail: hallo@teehuesli.ch
+  image:
+    - teehuesli-martina.png
+- 
+  name: Lilly Reich
+  function: |
+    Gründungsmitglied &
+    Grafik Design
+  mail: hallo@teehuesli.ch
+  image:
+    - teehuesli-lilly.png
+- 
+  name: Natalie Babayan
+  function: |
+    Gründungsmitglied &
+    Zimtschnecken Spezialistin
+  mail: hallo@bunsout.ch
+  image:
+    - teehuesli-natalie.png
+
+----
+
+Become-member-text: Wir sind immer offen für neue Ideen und Tatkraft, solange es dir um die Freude am Teehüsli Hohenstein geht und nicht um's Geld (ausser natürlich, wenn du das Teehüsli einfach nur finanziell unterstützen möchtest;-)). Wir freuen uns, wenn du dich einbringst und Mitglied bei uns wirst. Mit dir können wir noch mehr bewegen!
+
+----
+
+Form-title: Füll s'Formular us und dänn chas bald los gah.
+
+----
+
+Support-text:
+
+SPENDE
+Möchtest du uns mit einer Spende unterstützen? Dann bitten wir dich deinen Wunschbetrag auf das folgende Konto zu überweisen und uns über das Formular oder direkt per (link: hallo@teehuesli.ch text: mail) zu informieren.
+
+----
+
+Support-account:
+
+**ZKB
+CH 80 0070 0114 8039 1194 9
+JOEL FLÜCKIGER
+NORDSTRASSE 354
+8037 ZÜRICH**
+
+----
+
+Empfaengeremail: teehuesli@vonwilhelm.ch
+
+----
+
+Form-image:
+
+- teehuesli-team.png
+
+----
+
+Absenderemail: teehuesli@vonwilhelm.ch
+
+----
+
+Intro-bild-1:
+
+- 
+  id: verein/teehuesli-verein-renovierung.png
+  image:
+    back: pattern
+    color: orange-400
+    cover: false
+    icon: file-image
+    ratio: 3/2
+    url: >
+      http://teehuesli.test/media/pages/verein/17f24429d0-1651128750/teehuesli-verein-renovierung.png
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://teehuesli.test/media/pages/verein/17f24429d0-1651128750/teehuesli-verein-renovierung-38x.png
+      38w,
+      http://teehuesli.test/media/pages/verein/17f24429d0-1651128750/teehuesli-verein-renovierung-76x.png
+      76w
+  info: ""
+  link: >
+    /pages/verein/files/teehuesli-verein-renovierung.png
+  sortable: true
+  text: teehuesli-verein-renovierung.png
+  filename: teehuesli-verein-renovierung.png
+  dragText: '(image: teehuesli-verein-renovierung.png)'
+  type: image
+  url: >
+    http://teehuesli.test/media/pages/verein/17f24429d0-1651128750/teehuesli-verein-renovierung.png
+  uuid: teehuesli-verein-renovierung.png
+
+----
+
+Intro-bild-2:
+
+- 
+  id: verein/teehuesli-gaeste-aussen-2.png
+  image:
+    back: pattern
+    color: orange-400
+    cover: false
+    icon: file-image
+    ratio: 3/2
+    url: >
+      http://teehuesli.test/media/pages/verein/b1febfc139-1651128768/teehuesli-gaeste-aussen-2.png
+    src: >
+      data:image/gif;base64,R0lGODlhAQABAIAAAP///wAAACH5BAEAAAAALAAAAAABAAEAAAICRAEAOw
+    srcset: >
+      http://teehuesli.test/media/pages/verein/b1febfc139-1651128768/teehuesli-gaeste-aussen-2-38x.png
+      38w,
+      http://teehuesli.test/media/pages/verein/b1febfc139-1651128768/teehuesli-gaeste-aussen-2-76x.png
+      76w
+  info: ""
+  link: >
+    /pages/verein/files/teehuesli-gaeste-aussen-2.png
+  sortable: true
+  text: teehuesli-gaeste-aussen-2.png
+  filename: teehuesli-gaeste-aussen-2.png
+  dragText: '(image: teehuesli-gaeste-aussen-2.png)'
+  type: image
+  url: >
+    http://teehuesli.test/media/pages/verein/b1febfc139-1651128768/teehuesli-gaeste-aussen-2.png
+  uuid: teehuesli-gaeste-aussen-2.png

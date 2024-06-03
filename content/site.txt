@@ -1,5 +1,108 @@
-Title: Your New Web Project
+Title: Teehüsli Hohenstein
 
 ----
 
-Imprint: © by von wilhelm
+Next-date: 2022-08-07
+
+----
+
+Intro-text:
+
+Das Teehüsli Hohenstein ist der wunderbare Waldkiosk am Zürcher Uetliberg. Ob für Teatime, Kafipause oder Boxenstopp gegen Hüngerli – wir haben für alle was Feines. Ohne fliessend Wasser und Strom halten wir mit Nass vom Brunnen, Feuerholz und liebevollem Engagement für Jung, Alt und Dazwischen die Zeit etwas an und versüssen die Pausen vom Zürialltag. Wir freuen uns auch auf dich!
+
+PS: Möchtsch mithälfe? Mäld dich (link: /verein/#become_member text: da).
+
+----
+
+Intro-image:
+
+- teehuesli-gaeste-aussen-1.png
+
+----
+
+Angebot-text:
+
+Unser Angebot für dich ist, was unser Hausberg für Zürich ist: Klein aber fein. Regional und nachhaltig. Wir servieren aussergewöhnliche Tees, liebevoll zubereiteten Kaffee und Punsch oder Sirup für den gewöhnlichen und den besonderen Geschmackssinn. Als Essensbegleitung gibt es die bald welt- ääh regional berühmten Zimtschnecken von „buns out!“, hausgemachte Kuchen und mit etwas Glück: salzige Kleinigkeiten. Wer das Teehüsli für euch öffnet, bringt sich und eigene kulinarische Ideen ein. Dein Besuch ist also jedes Mal ein bisschen eine Überraschung.
+
+Lueg mal i eusi (file: 202206-menukarte-teehuesli-a3-web.pdf text: Menücharte). Und ja, klaaar isch (fascht) alles BIO!
+
+----
+
+Angebot-image-1:
+
+- teehuesli-tee.png
+
+----
+
+Kontakt-text: Verein <br> Teehüsli Hohenstein
+
+----
+
+Email: hallo@teehuesli.ch
+
+----
+
+Instagram: https://instagram.com/teehueslihohenstein
+
+----
+
+Googlemaps: https://goo.gl/maps/km9iSoJWrSy15tZk7
+
+----
+
+Angebot-image-2:
+
+- teehuesli-zimtschnecken.png
+
+----
+
+Map-desktop:
+
+- >
+  wegbeschreibung-teehusli_zeichenflache-1.png
+
+----
+
+Map-mobile:
+
+- >
+  wegbeschreibung-teehusli_zeichenflache-1-kopie-2.png
+
+----
+
+Imprint-text:
+
+Design (link: https://sodamithimbeer.ch text: sodamithimbeer.ch)
+
+Programmierung (link: https://vonwilhelm.ch text: vonwilhelm.ch)
+
+----
+
+Absendertext: Teehüsli Formular
+
+----
+
+Smtp-server: asmtp.mail.hostpoint.ch
+
+----
+
+Absenderemail: hello@vonwilhelm.ch
+
+----
+
+Absenderemail-password: Vw$293Gugli
+
+----
+
+Empfaengeremail: gusbertus@gmail.com
+
+----
+
+Kontakt-bild: 
+
+----
+
+Opening-hours:
+
+Offe immer am Sunntig bi Schönwätter
+ vo 10:00 bis 16:00
