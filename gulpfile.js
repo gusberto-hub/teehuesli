@@ -90,8 +90,8 @@ gulp.task(
     connect.server({}, function () {
       browserSync({
         proxy: paths.projectProxy,
-        notify: false,
-        browser: "firefox",
+        // notify: false,
+        // browser: "firefox",
       });
     });
     done();
