@@ -2,15 +2,11 @@ Title: Verein
 
 ----
 
-Intro-image-1:
-
-- teehuesli-verein-renovierung.png
+Intro-image-1: - teehuesli-verein-renovierung.png
 
 ----
 
-Intro-image-2:
-
-- teehuesli-gaeste-aussen-2.png
+Intro-image-2: - teehuesli-gaeste-aussen-2.png
 
 ----
 
@@ -90,9 +86,7 @@ Empfaengeremail: teehuesli@vonwilhelm.ch
 
 ----
 
-Form-image:
-
-- teehuesli-team.png
+Form-image: - teehuesli-team.png
 
 ----
 
@@ -163,3 +157,7 @@ Intro-bild-2:
   url: >
     http://teehuesli.test/media/pages/verein/b1febfc139-1651128768/teehuesli-gaeste-aussen-2.png
   uuid: teehuesli-gaeste-aussen-2.png
+
+----
+
+Uuid: qvjBgR99GdwpaO83

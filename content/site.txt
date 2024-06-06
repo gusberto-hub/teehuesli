@@ -2,7 +2,19 @@ Title: Teehüsli Hohenstein
 
 ----
 
+Show-free-text: true
+
+----
+
 Next-date: 2022-08-07
+
+----
+
+Free-text-top: Sommerferien
+
+----
+
+Free-text-bottom: bis bald
 
 ----
 
@@ -14,9 +26,7 @@ PS: Möchtsch mithälfe? Mäld dich (link: /verein/#become_member text: da).
 
 ----
 
-Intro-image:
-
-- teehuesli-gaeste-aussen-1.png
+Intro-image: - file://THN7KmVXfsCAPxJz
 
 ----
 
@@ -28,9 +38,7 @@ Lueg mal i eusi (file: 202206-menukarte-teehuesli-a3-web.pdf text: Menücharte).
 
 ----
 
-Angebot-image-1:
-
-- teehuesli-tee.png
+Angebot-image-1: - file://KbcFTlQ8RtMoQbrq
 
 ----
 
@@ -50,23 +58,15 @@ Googlemaps: https://goo.gl/maps/km9iSoJWrSy15tZk7
 
 ----
 
-Angebot-image-2:
-
-- teehuesli-zimtschnecken.png
+Angebot-image-2: - file://7anq4UGfzdkubnM3
 
 ----
 
-Map-desktop:
-
-- >
-  wegbeschreibung-teehusli_zeichenflache-1.png
+Map-desktop: - file://vPQgimNWoEjwxJRI
 
 ----
 
-Map-mobile:
-
-- >
-  wegbeschreibung-teehusli_zeichenflache-1-kopie-2.png
+Map-mobile: - file://jpcl6Ew9NblVphDR
 
 ----
 
