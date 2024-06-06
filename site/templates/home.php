@@ -15,7 +15,8 @@ snippet('header') ?>
     </div>
     <div id='next_event' class="js-show-on-scroll will-change-scroll" data-animate-type="animate-fadeInLeft">
         <div class='arrow'>
-            <p class=''>
+          <?php if ($site->show_free_text()->toBool() === false): ?>
+            <p class='date'>
                 <?php
                 $fmt = new IntlDateFormatter(
                     'de_DE',
@@ -32,6 +33,14 @@ snippet('header') ?>
 
                 <span>offe</span>
             </p>
+          <?php else: ?>
+              <p class="date">
+                <?= $site->free_text_top() ?>
+              <span>
+                <?= $site->free_text_bottom() ?>
+              </span>
+              </p>
+          <?php endif; ?>
             <img src="../../assets/images/Triangle.svg" alt="">
         </div>
     </div>

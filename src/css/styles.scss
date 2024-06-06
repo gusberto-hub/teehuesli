@@ -32,11 +32,11 @@ section {
   --arrow-ratio: calc(1 / 1);
 
   @apply absolute w-36 sm:w-48 z-20 top-8 sm:top-[30vw] lg:top-8 right-4 sm:right-[14vw] lg:right-16 -rotate-[18deg] sm:rotate-[25deg] lg:-rotate-[19deg] uppercase text-secondary transition-all;
-  
+
   .arrow {
     @apply relative;
 
-    p{
+    .date {
       @apply font-simplon_regular text-center text-sm sm:text-lg pt-[0.6em];
       //Status
       span{

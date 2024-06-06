@@ -18,10 +18,36 @@ tabs:
       content:
         type: fields
         fields:
+          show_free_text:
+            label: Fahnen Text
+            type: toggle
+            width: 1/3
+            text:
+              - "datum"
+              - "text"
           next_date:
-            label: Nächster Event
+            label: Datum Nächster Event
             type: date
             display: DD MMM YYYY
+            width: 2/3
+            when:
+              show_free_text: false
+          free_text_top:
+            label: Freier Text (oben)
+            type: text
+            width: 1/3
+            help: Text kurz halten um die Fahne nicht zu überladen
+            maxlength: 14
+            when:
+              show_free_text: true
+          free_text_bottom:
+            label: Freier Text (unten)
+            type: text
+            width: 1/3
+            help: Text kurz halten um die Fahne nicht zu überladen
+            maxlength: 18
+            when:
+              show_free_text: true
           intro_text:
             label: Intro
             type: textarea
