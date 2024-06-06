@@ -1087,7 +1087,7 @@ section {
 #next_event .arrow {
   position: relative;
 }
-#next_event .arrow p {
+#next_event .arrow .date {
   padding-top: 0.6em;
   text-align: center;
   font-family: Simplon Mono Regular, monospace;
@@ -1096,12 +1096,12 @@ section {
 }
 @media (min-width: 640px) {
 
-  #next_event .arrow p {
+  #next_event .arrow .date {
     font-size: 1.125rem;
     line-height: 1.75rem;
   }
 }
-#next_event .arrow p span {
+#next_event .arrow .date span {
   display: block;
   font-family: Simplon Mono Medium, monospace;
   font-size: 1rem;
@@ -1109,7 +1109,7 @@ section {
 }
 @media (min-width: 640px) {
 
-  #next_event .arrow p span {
+  #next_event .arrow .date span {
     font-size: 1.25rem;
     line-height: 1.75rem;
   }
