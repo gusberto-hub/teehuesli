@@ -1,11 +1,9 @@
 const gulp = require("gulp");
+const webpack = require("webpack-stream");
 const sass = require("gulp-sass")(require("sass"));
-// sass.compiler = require("sass-embedded");
 const sassGlob = require("gulp-sass-glob");
 const browserSync = require("browser-sync");
 const postcss = require("gulp-postcss");
-const tailwindcss = require("tailwindcss");
-const autoprefixer = require("autoprefixer");
 const concat = require("gulp-concat");
 const rename = require("gulp-rename");
 const uglify = require("gulp-uglify");
@@ -52,6 +50,11 @@ gulp.task("sass", function () {
 gulp.task("scripts", function () {
   return gulp
     .src([paths.scripts.src])
+    .pipe(
+      webpack({
+        mode: "development",
+      })
+    )
     .pipe(concat("scripts.js"))
     .pipe(gulp.dest(paths.scripts.dest))
     .pipe(
@@ -69,6 +72,17 @@ gulp.task("scripts", function () {
     );
 });
 
+gulp.task("default", function () {
+  return gulp
+    .src("src/entry.js")
+    .pipe(
+      webpack({
+        // Any configuration options...
+      })
+    )
+    .pipe(gulp.dest("dist/"));
+});
+
 // This task is used to reload the project when changes are made to a html/scss/js file.
 gulp.task(
   "browserSync",
@@ -76,7 +90,7 @@ gulp.task(
     connect.server({}, function () {
       browserSync({
         proxy: paths.projectProxy,
-        notify: true,
+        notify: false,
         browser: "firefox",
       });
     });
