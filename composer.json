@@ -826,5 +826,8 @@
     "allow-plugins": {
       "getkirby/composer-installer": true
     }
+  },
+  "require": {
+    "vlucas/phpdotenv": "^5.6"
   }
 }

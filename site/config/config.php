@@ -1,28 +1,25 @@
 <?php
 
+require_once __DIR__ . '/vendor/autoload.php';
+
+$dotenv = Dotenv\Dotenv::createImmutable(__DIR__);
+$dotenv->load();
+
 return [
   'debug'  => false,
   'panel' => [
     'css' => 'assets/css/custom-panel.css',
     'language' => 'de'
   ],
-  // 'email' => [
-  //     'transport' => [
-  //       'type' => 'smtp',
-  //       'host' => 'localhost',
-  //       'port' => 1025,
-  //       'security' => false
-  //     ]
-  //   ],
   'email' => [
     'transport' => [
       'type' => 'smtp',
-      'host' => 'asmtp.mail.hostpoint.ch',
-      'port' => 465,
+      'host' => getenv('MAIL_HOST'),
+      'port' => getenv('MAIL_PORT'),
       'security' => true,
       'auth' => true,
-      'username' => 'teehuesli@vonwilhelm.ch',
-      'password' => 'E5cfxT!?sBg3rg7UYE62',
+      'username' => getenv('MAIL_USERNAME'),
+      'password' => getenv('MAIL_PASSWORD'),
     ]
   ],
 ];
